@@ -13,14 +13,14 @@ while True:
     hwnd = wn.FindWindow(None, "Knight OnLine Client")  # pencere ismi
     xy = left, top, right, bottom = wn.GetWindowRect(hwnd)
 
-    example1 = ag.locateCenterOnScreen('C:/Users/volkan/Pictures/Forst_bite.png', region = xy, confidence=0.9)
-    #asd2 = ag.locateOnWindow('C:/Users/volkan/Pictures/8.png', "Untitled - Notepad")
+    example1 = ag.locateCenterOnScreen('C:/Users/pirik3/Pictures/Forst_bite.png', region = xy, confidence=0.9)
+    #asd2 = ag.locateOnWindow('C:/Users/pirik3/Pictures/8.png', "Untitled - Notepad")
 
     im_hp = ag.screenshot(region=(left+29, top+60, right*0+192, bottom*0+15)) # burasi weight ve hight olarak alinacak, point(dimension) olarak degil.
-    im_hp.save("C:/Users/volkan/Pictures/hp.png") # saves the screenshot in a file
+    im_hp.save("C:/Users/pirik3/Pictures/hp.png") # saves the screenshot in a file
 
     im_mp = ag.screenshot(region=(left+29, top+77, right*0+192, bottom*0+14))
-    im_mp.save("C:/Users/volkan/Pictures/mp.png") # saves the screenshot in a file
+    im_mp.save("C:/Users/pirik3/Pictures/mp.png") # saves the screenshot in a file
 
     
     if not hwnd:
