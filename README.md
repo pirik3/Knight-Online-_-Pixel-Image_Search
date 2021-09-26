@@ -2,4 +2,4 @@
 
 Knight Online Helper.
 
-Hp ve Mp bar okuma var simdilik.
+Hp ve Mp bar okuma.
